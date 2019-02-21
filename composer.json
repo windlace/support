@@ -1,0 +1,15 @@
+{
+    "name": "cast/support",
+    "description": "Support component",
+    "type": "library",
+    "keywords": ["helper","uuid"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cast\\Support\\": "src"
+        }
+    }
+}
