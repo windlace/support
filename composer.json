@@ -10,6 +10,9 @@
     "autoload": {
         "psr-4": {
             "Cast\\Support\\": "src"
-        }
+        },
+        "files": [
+            "src/functions.php"
+        ]
     }
 }
