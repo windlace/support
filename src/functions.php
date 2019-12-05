@@ -11,7 +11,7 @@ if (!function_exists('check_remote_image')) {
      * @param int $currentLevel
      * @return bool
      */
-    function check_remote_image($url, array $allowedImageTypes = [IMAGETYPE_JPEG, IMAGETYPE_GIF, IMAGETYPE_PNG], $maxLevel = 5, $currentLevel = 0)
+    function check_remote_image($url, array $allowedImageTypes = [IMAGETYPE_JPEG, IMAGETYPE_GIF, IMAGETYPE_PNG, IMAGETYPE_WEBP], $maxLevel = 5, $currentLevel = 0)
     {
         if ($currentLevel > $maxLevel) {
             return false;
